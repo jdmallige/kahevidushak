@@ -1,0 +1,5 @@
+<div class="vid_container">
+            <video id="vid" autoplay loop muted >
+                <source src="media/Concert - 172.mp4" type="video/mp4">
+            </video>
+        </div>

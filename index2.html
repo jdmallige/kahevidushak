@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <title>Kahe Vidushak</title>
+    <style>
+.section{
+    position: relative;
+    height:70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.section h1{
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.vid-container{
+    top:0;
+    left: 0;
+    position:absolute;
+    width: 100%;
+}
+
+    </style>
+
+</head>
+
+<body>
+      <!-- header video and nav--> 
+      <div class="section">
+          <h1>Welcome</h1>
+          <div class="vid-container">
+          <video loop autoplay muted>
+              <source src="media/Concert - 172.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
